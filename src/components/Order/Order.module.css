@@ -1,0 +1,94 @@
+.main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 130px 10px 0 10px;
+}
+.main__title {
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+.order {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.key {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.catalog {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.order__image {
+    max-width: 860px;
+    width: 100%;
+    min-height: 400px;
+    object-fit: cover;
+}
+.order__text {
+    max-width: 450px;
+    margin: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+}
+.order__title {
+    font-size: 18px;
+    line-height: 1.7;
+    height: 50px;
+}
+.order__subtitle {
+    height: 50px;
+}
+.order__paragraph {
+    font-size: 14px;
+    line-height: 1.4;
+    padding-left: 25px;
+    position: relative;
+    height: 50px;
+}
+.order__paragraph:before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url("src/components/Project/images/heart.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 5px;
+    top: 4px;
+}
+
+@media (max-width: 900px) {
+
+}
+
+@media (max-width: 750px) {
+    .main {
+        padding: 80px 10px 0 10px;
+    }
+    .order {
+        flex-direction: column;
+    }
+    .order__paragraph {
+        font-size: 14px;
+        line-height: 1.4;
+        padding-left: 25px;
+        position: relative;
+        height: 80px;
+    }
+}
+@media (max-width: 650px) {
+
+}

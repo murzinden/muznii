@@ -1,0 +1,152 @@
+
+.project {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 70px 10px 0 10px;
+}
+.project__order {
+    display: flex;
+    justify-content: space-between;
+}
+.order__image {
+    flex: 1;
+}
+.order__topImages {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.project__text {
+    flex: 1;
+    padding: 60px 10px;
+    margin: auto 0 auto 0;
+}
+.project__title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto 40px auto;
+    max-width: 500px;
+    line-height: 1.2;
+}
+.project__subtitle {
+    max-width: 500px;
+    margin: 20px auto 0 auto;
+    line-height: 1.1;
+    padding-left: 25px;
+    position: relative;
+}
+.project__subtitle:before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url("src/components/Project/images/heart.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 5px;
+    top: 4px;
+}
+.button__container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.project__content {
+    max-width: 1400px;
+    margin: 30px auto 30px auto;
+}
+.content{
+}
+.content__title {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    max-width: 500px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.content__subtitle {
+    max-width: 500px;
+    margin: 20px auto 0 auto;
+    line-height: 1.1;
+    padding-left: 25px;
+    position: relative;
+}
+.content__subtitle:before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url("src/components/Project/images/heart.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 5px;
+    top: 4px;
+}
+.content__button {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 70px 0;
+}
+.content__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.contact__title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    max-width: 500px;
+    line-height: 1.2;
+}
+.contact__link {
+    color: #fff;
+    font-size: 14px;
+}
+.contact__social {
+    margin-right: 10px;
+}
+.contact__info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.contact__form {
+    flex: 1;
+}
+
+@media (max-width: 750px) {
+    /*.project__title {*/
+    /*    font-size: 24px;*/
+    /*    max-width: 340px;*/
+    /*    margin: 0 auto 30px auto;*/
+    /*}*/
+    .project__order {
+        flex-direction: column;
+    }
+    .contact {
+       flex-direction: column;
+        gap: 15px;
+    }
+}
+@media (max-width: 600px) {
+    /*.project__title {*/
+    /*    font-size: 16px;*/
+    /*    max-width: 250px;*/
+    /*    margin: 0 auto 20px auto*/
+    /*}*/
+}
+

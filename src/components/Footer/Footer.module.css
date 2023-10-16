@@ -1,0 +1,15 @@
+.footer {
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+.footer__link {
+    color: #fff;
+    font-size: 14px;
+}
+.footer__text {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
