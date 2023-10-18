@@ -158,7 +158,6 @@ const Project = () => {
                     </div>
                 </section>
             </main>
-            <Footer/>
         </>
     );
 };

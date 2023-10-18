@@ -73,7 +73,6 @@ const Social = () => {
                     </div>
                 </section>
             </main>
-            <Footer/>
         </>
     );
 };

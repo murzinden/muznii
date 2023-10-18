@@ -73,7 +73,6 @@ const Volunteering = () => {
                     </div>
                 </section>
             </main>
-            <Footer/>
         </>
     );
 };

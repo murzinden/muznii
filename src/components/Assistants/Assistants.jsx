@@ -198,7 +198,6 @@ const Assistants = () => {
                     </div>
                 </section>
             </main>
-            <Footer/>
         </>
     );
 };

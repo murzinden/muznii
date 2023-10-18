@@ -109,7 +109,6 @@ const Order = () => {
                     </div>
                 </section>
             </main>
-            <Footer/>
         </>
     );
 };

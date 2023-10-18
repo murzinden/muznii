@@ -126,7 +126,6 @@ const Reviews = () => {
                     </div>
                 </section>
             </main>
-            <Footer/>
         </>
     );
 };
