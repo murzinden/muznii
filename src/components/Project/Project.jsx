@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react';
+import React, {useEffect} from 'react';
 import cn from "classnames";
 import s from "./Project.module.css"
 import topImages from "../../../public/images/projecttop.jpg"
