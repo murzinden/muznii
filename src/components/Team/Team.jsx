@@ -2,13 +2,13 @@
 import React from 'react';
 import cn from "classnames";
 import s from "./Team.module.css"
-import andrey from "./images/andrey.jpg"
-import irina from "./images/irina.jpg"
-import julia from "./images/julia.jpg"
-import juliasherbakova from "./images/juliasherbakova.jpg"
-import maria from "./images/maria.jpg"
-import stepan from "./images/stepan.jpg"
-import Footer from "../Footer/Footer.jsx";
+import andrey from "../../../public/images/andrey.jpg"
+import irina from "../../../public/images/irina.jpg"
+import julia from "../../../public/images/julia.jpg"
+import juliasherbakova from "../../../public/images/juliasherbakova.jpg"
+import maria from "../../../public/images/maria.jpg"
+import stepan from "../../../public/images/stepan.jpg"
+
 
 const Team = () => {
     return (

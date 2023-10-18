@@ -2,7 +2,7 @@
 import React from 'react';
 import cn from "classnames";
 import s from "./Social.module.css"
-import Footer from "../Footer/Footer.jsx";
+
 
 const Social = () => {
     return (

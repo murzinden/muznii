@@ -41,7 +41,7 @@
     display: inline-block;
     width: 10px;
     height: 10px;
-    background-image: url("src/components/Project/images/heart.png");
+    background-image: url("../../../public/images/heart.png");
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -80,7 +80,7 @@
     display: inline-block;
     width: 10px;
     height: 10px;
-    background-image: url("src/components/Project/images/heart.png");
+    background-image: url("../../../public/images/heart.png");
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;

@@ -3,10 +3,10 @@ import React from 'react';
 import cn from "classnames";
 import s from "./Order.module.css"
 import Button from "../ui/Button/Button.jsx";
-import orderLeft from "./images/orderleft.jpeg"
-import orderRight from "./images/orderright.jpg"
+import orderLeft from "../../../public/images/orderleft.jpeg"
+import orderRight from "../../../public/images/orderright.jpg"
 import someStyles from './SomeComponent.module.css';
-import Footer from "../Footer/Footer.jsx";
+
 
 
 const Order = () => {

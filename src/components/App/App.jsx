@@ -9,8 +9,8 @@ import Social from "../Social/Social.jsx";
 import Volunteering from "../Volunteering/Volunteering.jsx";
 import Order from "../Order/Order.jsx";
 import {useState} from "react";
-import closeicon from "./images/closeicon.jpg"
-import burgermenu from "./images/burgermenu.jpg"
+import closeicon from "../../../public/images/closeicon.jpg"
+import burgermenu from "../../../public/images/burgermenu.jpg"
 import Footer from "../Footer/Footer.jsx";
 
 
@@ -53,13 +53,13 @@ function App() {
                        className={cn(s.header__link, s.emailLink)}>muznii4you@gmail.com</a>
                 </header>
                 <Routes>
-                    <Route path="/" element={<Project/>}/>
                     <Route path="/reviews" element={<Reviews/>}/>
                     <Route path="/team" element={<Team/>}/>
                     <Route path="/assistants" element={<Assistants/>}/>
                     <Route path="/social" element={<Social/>}/>
                     <Route path="/volunteering" element={<Volunteering/>}/>
                     <Route path="/order" element={<Order/>}/>
+                    <Route path="/" element={<Project/>}/>
                 </Routes>
                 <Footer/>
             </Router>

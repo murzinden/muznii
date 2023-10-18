@@ -2,22 +2,22 @@
 import React from 'react';
 import cn from "classnames";
 import s from "./Assistants.module.css"
-import alexandra from "./images/alexandra.jpg"
-import alexandrashetkina from "./images/alexandrashetkina.jpg"
-import alexey from "./images/alexey.jpg"
-import alina from "./images/alina.jpg"
-import dmitriy from "./images/dmitriy.jpg"
-import elena from "./images/elena.jpg"
-import irina from "./images/irina.jpg"
-import kristina from "./images/kristina.jpg"
-import liza from "./images/liza.jpg"
-import natalia from "./images/natalia.jpg"
-import olga from "./images/olga.jpg"
-import olgagrebneva from "./images/olgagrebneva.jpg"
-import svetlana from "./images/svetlana.jpg"
-import timur from "./images/timur.jpg"
-import valentina from "./images/valentina.jpg"
-import Footer from "../Footer/Footer.jsx";
+import alexandra from "../../../public/images/alexandra.jpg"
+import alexandrashetkina from "../../../public/images/alexandrashetkina.jpg"
+import alexey from "../../../public/images/alexey.jpg"
+import alina from "../../../public/images/alina.jpg"
+import dmitriy from "../../../public/images/dmitriy.jpg"
+import elena from "../../../public/images/elena.jpg"
+import irina from "../../../public/images/irina.jpg"
+import kristina from "../../../public/images/kristina.jpg"
+import liza from "../../../public/images/liza.jpg"
+import natalia from "../../../public/images/natalia.jpg"
+import olga from "../../../public/images/olga.jpg"
+import olgagrebneva from "../../../public/images/olgagrebneva.jpg"
+import svetlana from "../../../public/images/svetlana.jpg"
+import timur from "../../../public/images/timur.jpg"
+import valentina from "../../../public/images/valentina.jpg"
+
 
 const Assistants = () => {
     return (

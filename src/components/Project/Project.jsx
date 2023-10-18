@@ -2,13 +2,13 @@
 import React from 'react';
 import cn from "classnames";
 import s from "./Project.module.css"
-import topImages from "./images/projecttop.jpg"
-import bottomImages from "./images/bottomImages.jpg"
-import telegram from "./images/telegram.png"
-import vk from "./images/vk.png"
+import topImages from "../../../public/images/projecttop.jpg"
+import bottomImages from "../../../public/images/bottomImages.jpg"
+import telegram from "../../../public/images/telegram.png"
+import vk from "../../../public/images/vk.png"
 import Button from "../ui/Button/Button.jsx";
 import Form from "../ui/Form/Form.jsx";
-import Footer from "../Footer/Footer.jsx";
+
 
 const Project = () => {
 

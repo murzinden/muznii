@@ -1,9 +1,9 @@
 import React from 'react';
 import cn from "classnames";
 import s from "./Volunteering.module.css"
-import icon from "./images/volunteeringicon.jpg"
-import flexImage from "./images/volunteering.jpg"
-import Footer from "../Footer/Footer.jsx";
+import icon from "../../../public/images/volunteeringicon.jpg"
+import flexImage from "../../../public/images/volunteering.jpg"
+
 
 const Volunteering = () => {
     return (

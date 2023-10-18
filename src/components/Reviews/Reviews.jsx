@@ -2,15 +2,15 @@
 import React from 'react';
 import cn from "classnames";
 import s from "./Reviews.module.css"
-import alena from "./images/alena.jpg"
-import anastasia from "./images/anastasia.jpg"
-import anastasia42 from "./images/anastasia42.jpg"
-import anna from "./images/anna.jpg"
-import ekaterina from "./images/ekaterina.jpg"
-import nadezhda from "./images/nadezhda.jpg"
-import valery from "./images/valery.jpg"
-import zoya from "./images/zoya.jpg"
-import Footer from "../Footer/Footer.jsx";
+import alena from "../../../public/images/alena.jpg"
+import anastasia from "../../../public/images/anastasia.jpg"
+import anastasia42 from "../../../public/images/anastasia42.jpg"
+import anna from "../../../public/images/anna.jpg"
+import ekaterina from "../../../public/images/ekaterina.jpg"
+import nadezhda from "../../../public/images/nadezhda.jpg"
+import valery from "../../../public/images/valery.jpg"
+import zoya from "../../../public/images/zoya.jpg"
+
 
 
 const Reviews = () => {
