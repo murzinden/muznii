@@ -16,7 +16,7 @@ function App() {
 
     return (
         <>
-            <Router basename="/muznii">
+            <Router basename={import.meta.env.BASE_URL}>
                 <Header/>
                 <Routes>
                     <Route path="/" element={<Project/>}/>
